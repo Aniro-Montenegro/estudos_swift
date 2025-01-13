@@ -8,10 +8,10 @@ print(lista2)
 print(lista.isEmpty)
 print(lista.count)
 print(lista2.contains("Ana"))
-print(lista2.min())
+
 lista.append(150)
 print(lista)
-print(lista2.firstIndex(of: "Joana"))
+
 for i in 0..<lista2.count {
     print(lista2[i])
 }
@@ -26,3 +26,11 @@ for v in lista{
 for (index,elemento) in lista2.enumerated(){
     print(index, elemento)
 }
+var inicio = 2
+var fim = 5
+var a=2
+for i in inicio...fim {
+    a=a*i
+    print(a)
+}
+
